@@ -20,28 +20,12 @@ This Unity project implements a customizable authentication system supporting:
 - Modular Panel system for flexible menu transitions
 - Password strength validation (must include uppercase, lowercase, digit, special character)
 
-## Folder Structure
-
-```
-
-Assets/
-├── Menu/                  # Main menu scripts
-│   ├── AuthenticationMenu.cs
-│   ├── ErrorMenu.cs
-│   └── MenuManager.cs
-├── Tools/                 # Shared logic for all panels
-│   └── Panel.cs
-├── Prefabs/               # UI panels and buttons as prefabs
-└── Scenes/                # Unity scenes
-
-````
 
 ## Requirements
 
-- Unity 2023.1 or newer
+- Unity 6 or newer
 - Unity Authentication (set up via Unity Dashboard)
 - Unity TextMeshPro
-- Git LFS (recommended if extending the project)
 
 ## Setup Instructions
 
