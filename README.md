@@ -1,8 +1,6 @@
 # unity-auth-system
 
-Great! Here's a beginner-friendly `README.md` for your **Unity Authentication System** project:
 
----
 
 ```markdown
 # Unity Authentication System
