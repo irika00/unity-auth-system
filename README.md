@@ -1,6 +1,6 @@
 # unity-auth-system
 
-
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/irika00/unity-auth-system)
 
 ```markdown
 # Unity Authentication System
