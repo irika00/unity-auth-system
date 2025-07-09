@@ -2,7 +2,6 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/irika00/unity-auth-system)
 
-Looking at the codebase, I can see this is a Unity authentication system project. The repository already has a README file, but I can generate an improved version based on the current codebase structure and features. 
 
 # Unity Authentication System
 
