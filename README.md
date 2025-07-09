@@ -5,16 +5,16 @@
 
 # Unity Authentication System
 
-A Unity-based authentication interface for Metaverse Cloud Services that provides a complete menu-driven authentication flow with support for multiple authentication methods. [1](#0-0) 
+A Unity-based authentication interface for Metaverse Cloud Services that provides a complete menu-driven authentication flow with support for multiple authentication methods.  
 
 ## Features
 
-- **Multi-modal Authentication**: Anonymous sign-in, username/password sign-up and sign-in [2](#0-1) 
-- **Unity Services Integration**: Direct integration with Unity Authentication and Analytics services [3](#0-2) 
-- **Input System Support**: Full Unity Input System support for keyboard, gamepad, touch, and XR inputs [4](#0-3) 
-- **Error Handling**: Comprehensive error display and recovery mechanisms [5](#0-4) 
-- **URP Compatibility**: Built on Universal Render Pipeline for cross-platform deployment [6](#0-5) 
-- **Modular Panel System**: Flexible menu transitions with clean UI prefabs [7](#0-6) 
+- **Multi-modal Authentication**: Anonymous sign-in, username/password sign-up and sign-in 
+- **Unity Services Integration**: Direct integration with Unity Authentication and Analytics services 
+- **Input System Support**: Full Unity Input System support for keyboard, gamepad, touch, and XR inputs 
+- **Error Handling**: Comprehensive error display and recovery mechanisms  
+- **URP Compatibility**: Built on Universal Render Pipeline for cross-platform deployment
+- **Modular Panel System**: Flexible menu transitions with clean UI prefabs 
 
 ## System Architecture
 
@@ -22,16 +22,16 @@ The system follows a modular architecture built around Unity's UI framework and 
 
 ### Core Components
 
-- **MenuManager**: Central management prefab that coordinates the authentication flow [8](#0-7) 
-- **Menu Scene**: Main scene containing Canvas, EventSystem, and UI components [9](#0-8) 
-- **Input Actions**: Comprehensive input mapping for multiple device types [10](#0-9) 
+- **MenuManager**: Central management prefab that coordinates the authentication flow 
+- **Menu Scene**: Main scene containing Canvas, EventSystem, and UI components 
+- **Input Actions**: Comprehensive input mapping for multiple device types 
 
 ## Requirements
 
-- Unity 6 or newer [11](#0-10) 
-- Unity Authentication (set up via Unity Dashboard) [12](#0-11) 
-- Unity TextMeshPro [13](#0-12) 
-- Unity Input System [14](#0-13) 
+- Unity 6 or newer 
+- Unity Authentication (set up via Unity Dashboard) 
+- Unity TextMeshPro  
+- Unity Input System  
 
 ## Setup Instructions
 
@@ -40,13 +40,13 @@ The system follows a modular architecture built around Unity's UI framework and 
    git clone https://github.com/irika00/unity-auth-system.git
    ``` [15](#0-14) 
 
-2. Open the project in Unity [16](#0-15) 
+2. Open the project in Unity 
 
 3. Configure Unity Services:
-   - Go to `Edit > Project Settings > Services` and ensure Unity Authentication is enabled [17](#0-16) 
+   - Go to `Edit > Project Settings > Services` and ensure Unity Authentication is enabled 
 
 4. Set up the authentication flow:
-   - Connect the `MenuManager` and `PanelManager` scripts in the AuthenticationMenu prefab [18](#0-17) 
+   - Connect the `MenuManager` and `PanelManager` scripts in the AuthenticationMenu prefab 
 
 ## Project Structure
 
@@ -59,13 +59,6 @@ Assets/
 ├── InputSystem_Actions.inputactions # Input mappings
 └── TutorialInfo/                   # Unity template assets
 ```
-
-## Input System Integration
-
-The project includes comprehensive input support through Unity's Input System, with mappings for:
-- Keyboard and mouse controls [19](#0-18) 
-- Gamepad support [20](#0-19) 
-- XR controller compatibility [21](#0-20) 
 
 ## Known Issues
 
